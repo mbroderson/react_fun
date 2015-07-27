@@ -13,7 +13,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'react-rails'
 gem 'haml'
-
+gem 'html2haml'
 
 group :development, :test do
 

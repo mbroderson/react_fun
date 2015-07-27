@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  root 'static#index'
+  resources :meetups
+  root 'meetups#new'
 end
